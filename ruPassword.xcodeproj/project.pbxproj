@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26337605149738D000F5FE47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26337604149738D000F5FE47 /* UIKit.framework */; };
+		26337607149738D000F5FE47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26337606149738D000F5FE47 /* Foundation.framework */; };
+		26337609149738D000F5FE47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26337608149738D000F5FE47 /* CoreGraphics.framework */; };
+		2633760F149738D000F5FE47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2633760D149738D000F5FE47 /* InfoPlist.strings */; };
+		26337611149738D000F5FE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26337610149738D000F5FE47 /* main.m */; };
+		26337615149738D000F5FE47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26337614149738D000F5FE47 /* AppDelegate.m */; };
+		26337618149738D000F5FE47 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26337617149738D000F5FE47 /* FirstViewController.m */; };
+		2633761A149738D000F5FE47 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 26337619149738D000F5FE47 /* first.png */; };
+		2633761C149738D000F5FE47 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2633761B149738D000F5FE47 /* first@2x.png */; };
+		2633761F149738D000F5FE47 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2633761E149738D000F5FE47 /* SecondViewController.m */; };
+		26337621149738D000F5FE47 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 26337620149738D000F5FE47 /* second.png */; };
+		26337623149738D000F5FE47 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26337622149738D000F5FE47 /* second@2x.png */; };
+		26337626149738D000F5FE47 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26337624149738D000F5FE47 /* FirstViewController_iPhone.xib */; };
+		26337629149738D000F5FE47 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26337627149738D000F5FE47 /* FirstViewController_iPad.xib */; };
+		2633762C149738D000F5FE47 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2633762A149738D000F5FE47 /* SecondViewController_iPhone.xib */; };
+		2633762F149738D000F5FE47 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2633762D149738D000F5FE47 /* SecondViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26337600149738D000F5FE47 /* ruPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26337604149738D000F5FE47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26337606149738D000F5FE47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26337608149738D000F5FE47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2633760C149738D000F5FE47 /* ruPassword-Info.plist */ = {isa = PBXFileReference; path = "ruPassword-Info.plist"; sourceTree = "<group>"; };
+		2633760E149738D000F5FE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26337610149738D000F5FE47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26337612149738D000F5FE47 /* ruPassword-Prefix.pch */ = {isa = PBXFileReference; path = "ruPassword-Prefix.pch"; sourceTree = "<group>"; };
+		26337613149738D000F5FE47 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		26337614149738D000F5FE47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26337616149738D000F5FE47 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		26337617149738D000F5FE47 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		26337619149738D000F5FE47 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2633761B149738D000F5FE47 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2633761D149738D000F5FE47 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		2633761E149738D000F5FE47 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		26337620149738D000F5FE47 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		26337622149738D000F5FE47 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		26337625149738D000F5FE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		26337628149738D000F5FE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		2633762B149738D000F5FE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		2633762E149738D000F5FE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263375FD149738D000F5FE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26337605149738D000F5FE47 /* UIKit.framework in Frameworks */,
+				26337607149738D000F5FE47 /* Foundation.framework in Frameworks */,
+				26337609149738D000F5FE47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263375F5149738D000F5FE47 = {
+			isa = PBXGroup;
+			children = (
+				2633760A149738D000F5FE47 /* ruPassword */,
+				26337603149738D000F5FE47 /* Frameworks */,
+				26337601149738D000F5FE47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26337601149738D000F5FE47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26337600149738D000F5FE47 /* ruPassword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26337603149738D000F5FE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26337604149738D000F5FE47 /* UIKit.framework */,
+				26337606149738D000F5FE47 /* Foundation.framework */,
+				26337608149738D000F5FE47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2633760A149738D000F5FE47 /* ruPassword */ = {
+			isa = PBXGroup;
+			children = (
+				26337613149738D000F5FE47 /* AppDelegate.h */,
+				26337614149738D000F5FE47 /* AppDelegate.m */,
+				26337616149738D000F5FE47 /* FirstViewController.h */,
+				26337617149738D000F5FE47 /* FirstViewController.m */,
+				26337619149738D000F5FE47 /* first.png */,
+				2633761B149738D000F5FE47 /* first@2x.png */,
+				2633761D149738D000F5FE47 /* SecondViewController.h */,
+				2633761E149738D000F5FE47 /* SecondViewController.m */,
+				26337620149738D000F5FE47 /* second.png */,
+				26337622149738D000F5FE47 /* second@2x.png */,
+				26337624149738D000F5FE47 /* FirstViewController_iPhone.xib */,
+				26337627149738D000F5FE47 /* FirstViewController_iPad.xib */,
+				2633762A149738D000F5FE47 /* SecondViewController_iPhone.xib */,
+				2633762D149738D000F5FE47 /* SecondViewController_iPad.xib */,
+				2633760B149738D000F5FE47 /* Supporting Files */,
+			);
+			path = ruPassword;
+			sourceTree = "<group>";
+		};
+		2633760B149738D000F5FE47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2633760C149738D000F5FE47 /* ruPassword-Info.plist */,
+				2633760D149738D000F5FE47 /* InfoPlist.strings */,
+				26337610149738D000F5FE47 /* main.m */,
+				26337612149738D000F5FE47 /* ruPassword-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263375FF149738D000F5FE47 /* ruPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26337632149738D000F5FE47 /* Build configuration list for PBXNativeTarget "ruPassword" */;
+			buildPhases = (
+				263375FC149738D000F5FE47 /* Sources */,
+				263375FD149738D000F5FE47 /* Frameworks */,
+				263375FE149738D000F5FE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ruPassword;
+			productName = ruPassword;
+			productReference = 26337600149738D000F5FE47 /* ruPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263375F7149738D000F5FE47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Galayko.ru;
+			};
+			buildConfigurationList = 263375FA149738D000F5FE47 /* Build configuration list for PBXProject "ruPassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 263375F5149738D000F5FE47;
+			productRefGroup = 26337601149738D000F5FE47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263375FF149738D000F5FE47 /* ruPassword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263375FE149738D000F5FE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633760F149738D000F5FE47 /* InfoPlist.strings in Resources */,
+				2633761A149738D000F5FE47 /* first.png in Resources */,
+				2633761C149738D000F5FE47 /* first@2x.png in Resources */,
+				26337621149738D000F5FE47 /* second.png in Resources */,
+				26337623149738D000F5FE47 /* second@2x.png in Resources */,
+				26337626149738D000F5FE47 /* FirstViewController_iPhone.xib in Resources */,
+				26337629149738D000F5FE47 /* FirstViewController_iPad.xib in Resources */,
+				2633762C149738D000F5FE47 /* SecondViewController_iPhone.xib in Resources */,
+				2633762F149738D000F5FE47 /* SecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263375FC149738D000F5FE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26337611149738D000F5FE47 /* main.m in Sources */,
+				26337615149738D000F5FE47 /* AppDelegate.m in Sources */,
+				26337618149738D000F5FE47 /* FirstViewController.m in Sources */,
+				2633761F149738D000F5FE47 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2633760D149738D000F5FE47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633760E149738D000F5FE47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26337624149738D000F5FE47 /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26337625149738D000F5FE47 /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		26337627149738D000F5FE47 /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26337628149738D000F5FE47 /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2633762A149738D000F5FE47 /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633762B149738D000F5FE47 /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2633762D149738D000F5FE47 /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633762E149738D000F5FE47 /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26337630149738D000F5FE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26337631149738D000F5FE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26337633149738D000F5FE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ruPassword/ruPassword-Prefix.pch";
+				INFOPLIST_FILE = "ruPassword/ruPassword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26337634149738D000F5FE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ruPassword/ruPassword-Prefix.pch";
+				INFOPLIST_FILE = "ruPassword/ruPassword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263375FA149738D000F5FE47 /* Build configuration list for PBXProject "ruPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26337630149738D000F5FE47 /* Debug */,
+				26337631149738D000F5FE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26337632149738D000F5FE47 /* Build configuration list for PBXNativeTarget "ruPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26337633149738D000F5FE47 /* Debug */,
+				26337634149738D000F5FE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263375F7149738D000F5FE47 /* Project object */;
+}
