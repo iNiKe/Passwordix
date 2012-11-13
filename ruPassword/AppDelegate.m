@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
 #import "FirstViewController.h"
-
 #import "SecondViewController.h"
+#import <sys/utsname.h>
+#import "iRate.h"
 
 @implementation AppDelegate
 
@@ -19,20 +19,60 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    DLog(@"bundlePath = %@", [[NSBundle mainBundle] bundlePath]);
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
-    } else {
+
+    BOOL iPadDevice = ( ([UIDevice instancesRespondToSelector:@selector(userInterfaceIdiom)]) && ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) );
+
+    if (iPadDevice)
+    {
         viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
         viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
+    } 
+    else
+    {
+        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
     }
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
-    self.window.rootViewController = self.tabBarController;
+
+/*
+    if ( [self.window respondsToSelector:@selector(setRootViewController:)] )
+        self.window.rootViewController = self.tabBarController;
+    else
+*/
+    [self.window addSubview: self.tabBarController.view];
     [self.window makeKeyAndVisible];
+    
+/*
+    NSString *model= [[UIDevice currentDevice] model];
+    NSString *systemName= [[UIDevice currentDevice] systemName];
+    NSString *systemVersion= [[UIDevice currentDevice] systemVersion];
+    struct utsname u;
+	uname(&u);
+    NSLog(@"Model = %@", model);
+    NSLog(@"systemName = %@", systemName);
+    NSLog(@"systemVersion = %@", systemVersion);
+    NSLog(@"uname: sysname = %s\n nodename = %s\n release = %s\n version = %s\n machine = %s", u.sysname, u.nodename, u.release, u.version, u.machine);
+*/
+    
+	[iRate sharedInstance].appStoreID = APP_ID;
+#ifdef DEBUG
+//	[iRate sharedInstance].debug = YES;
+#else
+//	[iRate sharedInstance].debug = NO;
+#endif
+    [iRate sharedInstance].promptAtLaunch = YES;
+    
+    [iRate sharedInstance].cancelButtonLabel = NSLocalizedString(@"RATER_CANCEL_BUTTON", nil);
+    [iRate sharedInstance].messageTitle = [NSString stringWithFormat:NSLocalizedString(@"RATER_MESSAGE_TITLE", nil), [iRate sharedInstance].applicationName];
+    [iRate sharedInstance].message = [NSString stringWithFormat:NSLocalizedString(@"RATER_MESSAGE", nil), [iRate sharedInstance].applicationName];
+    [iRate sharedInstance].rateButtonLabel = NSLocalizedString(@"RATER_RATE_BUTTON", nil);
+    [iRate sharedInstance].remindButtonLabel = NSLocalizedString(@"RATER_RATE_LATER", nil);
+    
     return YES;
 }
 
@@ -57,6 +97,7 @@
     /*
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
      */
+//    [Appirater appEnteredForeground:YES];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

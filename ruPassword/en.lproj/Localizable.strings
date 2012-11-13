@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  ruPassword
+
+  Created by Nikita Galayko on 13.12.11.
+  Copyright (c) 2011 Galayko.ru. All rights reserved.
+*/
+
+"Generator" = "Generator";
+"Converter" = "Converter";
+
+// FirstViewController (Generator)
+
+"PasswordLengthStr" = "Password length: %i";
+"passwordLabel" = "Password";
+"generatePassBtn" = "Generate";
+"ClipBtn" = "Copy";
+"passGenSettingLabel" = "Password generation settings";
+"upcaseLabel" = "UPCASE chars";
+"locaseLabel" = "locase chars";
+"numbersLabel" = "numbers";
+"uniqCharsLabel" = "all chars unique";
+"specialCharsLabel" = "special chars";
+"useCharsLabel" = "use chars:";
+"useCharsPlaceholder" = "Enter chars";
+
+// SecondViewController (Converter)
+
+"ruPassPlaceholder" = "Enter cyrillic...";
+"enPassPlaceholder" = "Enter password...";
+"iMacLabel" = "iMac";
+"ruPassComment" = "For enthusiasts, who like to create passwords looking to cyrillic letters in latin charset";
+"ruPassLabel" = "Cyrillic password";
+"enPassLabel" = "Latin charset";
+"translit" = "Translit";
+"Copy to Clipboard" = "Copy to Clipboard";
+"Send by SMS" = "Send by SMS...";
+"Send by E-Mail" = "Send by E-Mail...";
+"Cancel" = "Cancel";
+"Failed to Send Email" = "Failed to Send Email!";
+"Failed to Send SMS" = "Failed to Send SMS!";
+
+// Rating
+"rateButton" =              "Rate App!";
+"RATER_MESSAGE" =       "If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute.\nThanks for your support!";
+"RATER_MESSAGE_TITLE" = "Rate %@";
+"RATER_CANCEL_BUTTON" =	"No, Thanks";
+"RATER_RATE_LATER" =    "Remind Me Later";
+"RATER_RATE_BUTTON" =   "Rate It Now!";

@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  ruPassword
+
+  Created by Nikita Galayko on 13.12.11.
+  Copyright (c) 2011 Galayko.ru. All rights reserved.
+*/
+
+"Generator" = "Генератор";
+"Converter" = "Конвертер";
+
+// FirstViewController (Генератор)
+
+"PasswordLengthStr" = "Длина пароля: %i";
+"passwordLabel" = "Пароль";
+"generatePassBtn" = "Генерировать";
+"ClipBtn" = "Копировать";
+"passGenSettingLabel" = "Настройки генератора паролей";
+"upcaseLabel" = "ВЕРХНИЙ регистр";
+"locaseLabel" = "нижний регистр";
+"numbersLabel" = "цифры";
+"uniqCharsLabel" = "не повторять символы";
+"specialCharsLabel" = "спец. символы";
+"useCharsLabel" = "использовать символы:";
+"useCharsPlaceholder" = "Введите символы";
+
+// SecondViewController (Конвертер)
+
+"ruPassPlaceholder" = "Введите пароль...";
+"enPassPlaceholder" = "Enter password...";
+"iMacLabel" = "iMac";
+"ruPassComment" = "Для любителей создавать пароли на русском языке в латинской раскладке";
+"ruPassLabel" = "Русский пароль";
+"enPassLabel" = "Латинская раскладка";
+"translit" = "Транслит";
+
+"Copy to Clipboard" = "Копировать";
+"Send by SMS" = "Отправить по СМС...";
+"Send by E-Mail" = "Отправить по E-Mail...";
+"Cancel" = "Отмена";
+"Failed to Send Email" = "Ошибка отправки E-Mail!";
+"Failed to Send SMS" = "Ошибка отправки СМС!";
+
+// Rating
+"rateButton" =          "Оцените приложение!";
+"RATER_MESSAGE" =       "Похоже, вам понравился %@, может быть вы напишите отзыв? Это не займет более минуты, а нам сильно поможет развивать приложение.\nСпасибо за поддержку!";
+"RATER_MESSAGE_TITLE" = "Оценить %@";
+"RATER_CANCEL_BUTTON" =	"Нет, спасибо";
+"RATER_RATE_LATER" =    "Напомнить позже";
+"RATER_RATE_BUTTON" =   "Оценить!";
