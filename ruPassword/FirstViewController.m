@@ -32,9 +32,9 @@
         if([MFMessageComposeViewController canSendText])
         {
             controller.body = str;
-            controller.recipients = nil; //[NSArray arrayWithObjects:@"12345678", @"87654321", nil];
+            controller.recipients = nil;
             controller.messageComposeDelegate = self;
-            [self presentModalViewController:controller animated:YES];
+            [self presentViewController:controller animated:YES completion:nil];
         }
     }
     else
@@ -46,25 +46,16 @@
 
 - (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result
 {
-    NSString *message = @"";
-    UIAlertView *v;
 	switch (result)
     {
-		case MessageComposeResultCancelled:
-			message = @"Cancelled";
-			break;
-            
 		case MessageComposeResultFailed:
-            message = NSLocalizedString(@"Failed to Send SMS", @"Ошибка отправки СМС!");
-            v = [[UIAlertView alloc] initWithTitle: [iRate sharedInstance].applicationName message: message delegate: self cancelButtonTitle: @"OK" otherButtonTitles: nil, nil];
-			break;
-		case MessageComposeResultSent:
-            
-			break;
+            [[[UIAlertView alloc] initWithTitle: [iRate sharedInstance].applicationName message: NSLocalizedString(@"Failed to Send SMS", @"Ошибка отправки СМС!") delegate: self cancelButtonTitle: @"OK" otherButtonTitles: nil, nil] show];
+            break;
+//		case MessageComposeResultCancelled:
+//		case MessageComposeResultSent:
 		default:
 			break;
 	}
-    DLog(@"message = %@", message);
 	[self dismissModalViewControllerAnimated:YES];
 }
 
@@ -378,7 +369,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 
     [self loadSettings];
     [ClipBtn useImages:@"InstallButton.png" pressedImage:@"InstallButtonPressed.png" capWidth:3 capHeight:11];

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[iRate shouldPromptForRating]:iRate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.firstUsed">
+            </PersistentString>
+            <PersistentString
+               value = "firstUsed">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

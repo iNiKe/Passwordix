@@ -358,6 +358,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self setupButtons];
     [self ruChanged:self];
     ruPassLabel.text = NSLocalizedString(@"ruPassLabel", @"ruPassLabel");
@@ -430,7 +431,6 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     [self updateScrollContentSize];
-
     return YES;
 }
 
