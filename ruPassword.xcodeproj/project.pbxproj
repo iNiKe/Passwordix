@@ -59,8 +59,6 @@
 		2641CBD416BAFB51004B77F5 /* NSString+NKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2641CBD316BAFB51004B77F5 /* NSString+NKUtils.m */; };
 		26523A5A16523DCE006662FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26523A5916523DCE006662FF /* Default-568h@2x.png */; };
 		26523A7316523FED006662FF /* NKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 26523A6D16523FED006662FF /* NKUtils.m */; };
-		26523AB116524967006662FF /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26523AAE16524967006662FF /* iRate.bundle */; };
-		26523AB216524967006662FF /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26523AB016524967006662FF /* iRate.m */; };
 		2674AF22150E1021005514EC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2674AF21150E1021005514EC /* MessageUI.framework */; };
 		2674AF24150E36AD005514EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2674AF23150E36AC005514EC /* Icon.png */; };
 		2674AF26150E36C2005514EC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2674AF25150E36C1005514EC /* Icon@2x.png */; };
@@ -293,6 +291,8 @@
 		267B937116DBF84100DB3A8F /* DummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B937016DBF83B00DB3A8F /* DummyViewController.m */; };
 		267B937416DBF8F100DB3A8F /* AITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B937316DBF8EA00DB3A8F /* AITabBarController.m */; };
 		267E017216F7A29700BB73A6 /* libKeePass2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 267E016F16F7A25000BB73A6 /* libKeePass2.a */; };
+		267E018C16F7B8AF00BB73A6 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 267E018916F7B8AF00BB73A6 /* iRate.bundle */; };
+		267E018D16F7B8AF00BB73A6 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E018B16F7B8AF00BB73A6 /* iRate.m */; };
 		2694878614B60A4500A13998 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2694878514B60A4500A13998 /* CFNetwork.framework */; };
 		2694878814B60A4C00A13998 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2694878714B60A4C00A13998 /* SystemConfiguration.framework */; };
 		269487AF14B70AAF00A13998 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 269487AE14B70AAF00A13998 /* Icon72.png */; };
@@ -439,9 +439,6 @@
 		26523A5916523DCE006662FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		26523A6C16523FED006662FF /* NKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKUtils.h; sourceTree = "<group>"; };
 		26523A6D16523FED006662FF /* NKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKUtils.m; sourceTree = "<group>"; };
-		26523AAE16524967006662FF /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
-		26523AAF16524967006662FF /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
-		26523AB016524967006662FF /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		2674AF21150E1021005514EC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2674AF23150E36AC005514EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		2674AF25150E36C1005514EC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -735,6 +732,9 @@
 		267B937316DBF8EA00DB3A8F /* AITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITabBarController.m; sourceTree = "<group>"; };
 		267E016916F7A24F00BB73A6 /* KeePass2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KeePass2.xcodeproj; path = KeePassLib/KeePass2.xcodeproj; sourceTree = "<group>"; };
 		267E017D16F7A58E00BB73A6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		267E018916F7B8AF00BB73A6 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		267E018A16F7B8AF00BB73A6 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		267E018B16F7B8AF00BB73A6 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		2694878514B60A4500A13998 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2694878714B60A4C00A13998 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		269487AE14B70AAF00A13998 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
@@ -1065,17 +1065,6 @@
 			path = ../../_Reused/NKUtils;
 			sourceTree = "<group>";
 		};
-		26523AAD16524967006662FF /* iRate */ = {
-			isa = PBXGroup;
-			children = (
-				26523AAE16524967006662FF /* iRate.bundle */,
-				26523AAF16524967006662FF /* iRate.h */,
-				26523AB016524967006662FF /* iRate.m */,
-			);
-			name = iRate;
-			path = iRate/iRate;
-			sourceTree = SOURCE_ROOT;
-		};
 		26783DF416ECF0B000FD5986 /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
@@ -1402,9 +1391,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		267E018816F7B8AF00BB73A6 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				267E018916F7B8AF00BB73A6 /* iRate.bundle */,
+				267E018A16F7B8AF00BB73A6 /* iRate.h */,
+				267E018B16F7B8AF00BB73A6 /* iRate.m */,
+			);
+			name = iRate;
+			path = iRate/iRate;
+			sourceTree = SOURCE_ROOT;
+		};
 		2694878914B60A6F00A13998 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				267E018816F7B8AF00BB73A6 /* iRate */,
 				26783DF416ECF0B000FD5986 /* Flurry */,
 				267B8EEB16D92AA600DB3A8F /* MyKeePass */,
 				267B8E3816D54BEB00DB3A8F /* localhostAddresses.h */,
@@ -1414,7 +1415,6 @@
 				267B8DB916D541F800DB3A8F /* ASI-HTTP-Request */,
 				267B8DB516D541D400DB3A8F /* Reachability */,
 				2632E44716D0E66800C00120 /* CocoaHTTPServer */,
-				26523AAD16524967006662FF /* iRate */,
 				26523A6916523FED006662FF /* NKUtils */,
 				2606518614FDF894002F9E96 /* GradientButton */,
 				2606517314FDF486002F9E96 /* UIImage+TPAdditions */,
@@ -1599,7 +1599,6 @@
 				2674AF3B150E4302005514EC /* Icon58.png in Resources */,
 				2674AF3C150E4302005514EC /* Icon100.png in Resources */,
 				26523A5A16523DCE006662FF /* Default-568h@2x.png in Resources */,
-				26523AB116524967006662FF /* iRate.bundle in Resources */,
 				2632E43016CE3E0E00C00120 /* ContainersViewController_iPhone.xib in Resources */,
 				2632E43416CE3E4D00C00120 /* ContainersViewController_iPad.xib in Resources */,
 				267B8F6A16DA238C00DB3A8F /* add.png in Resources */,
@@ -1758,6 +1757,7 @@
 				267B91BD16DA342100DB3A8F /* googledrive_icon@2x.png in Resources */,
 				267B91BE16DA342100DB3A8F /* icloud_icon.png in Resources */,
 				267B91BF16DA342100DB3A8F /* icloud_icon@2x.png in Resources */,
+				267E018C16F7B8AF00BB73A6 /* iRate.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,7 +1775,6 @@
 				2606517614FDF486002F9E96 /* UIImage+TPAdditions.m in Sources */,
 				2606518914FDF894002F9E96 /* GradientButton.m in Sources */,
 				26523A7316523FED006662FF /* NKUtils.m in Sources */,
-				26523AB216524967006662FF /* iRate.m in Sources */,
 				2641CBD416BAFB51004B77F5 /* NSString+NKUtils.m in Sources */,
 				2632E42816CD6D8F00C00120 /* PasswordGenerator.m in Sources */,
 				2632E55616D0E66A00C00120 /* DDData.m in Sources */,
@@ -1861,6 +1860,7 @@
 				267B937116DBF84100DB3A8F /* DummyViewController.m in Sources */,
 				267B937416DBF8F100DB3A8F /* AITabBarController.m in Sources */,
 				26783E0116ECFBE900FD5986 /* SelectKeyFileViewController.m in Sources */,
+				267E018D16F7B8AF00BB73A6 /* iRate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
