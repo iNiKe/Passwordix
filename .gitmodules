@@ -1,6 +1,9 @@
 [submodule "iRate"]
 	path = iRate
 	url = git://github.com/nicklockwood/iRate.git
+[submodule "KeePassLib"]
+	path = KeePassLib
+	url = git@github.com:iNiKe/KeePassLib.git
 [submodule "CocoaHTTPServer"]
 	path = CocoaHTTPServer
 	url = git://github.com/robbiehanson/CocoaHTTPServer.git
@@ -10,6 +13,3 @@
 [submodule "tapkulibrary"]
 	path = tapkulibrary
 	url = git://github.com/devinross/tapkulibrary.git
-[submodule "KeePassLib"]
-	path = KeePassLib
-	url = git@github.com:iNiKe/KeePassLib.git
