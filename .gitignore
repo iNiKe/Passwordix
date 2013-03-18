@@ -1,0 +1,22 @@
+.DS_Store
+<<<<<<< HEAD
+*.swp
+*~.nib
+
+build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3
+
+xcuserdata
+*.xcworkspace
+.idea/*
+=======
+Server Code/.DS_Store
+>>>>>>> 93c0a3f8412797c9c361bea2a57360e8bf8d398c
+
+*.xcuserstate
