@@ -3,6 +3,43 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[KdbPassword parser:foundCharacters:]:KdbPassword.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GroupViewController tableView:cellForRowAtIndexPath:]:GroupViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EntryViewController tableView:cellForRowAtIndexPath:]:EntryViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Node *)self-&gt;_entry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Node removeChild:]:Node.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Node postProcess:]:Node.m">
+      </ContextState>
+      <ContextState
+         contextName = "charactersFoundSAX:Kdb4Parser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Kdb4Entry postProcess:]:Kdb4Node.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[KdbPassword loadXmlKeyFile:hash:]:KdbPassword.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "hash[0]">
+            </PersistentString>
+            <PersistentString
+               value = "hash[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[iRate shouldPromptForRating]:iRate.m">
          <PersistentStrings>
             <PersistentString
